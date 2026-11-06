@@ -121,3 +121,8 @@ footer strong{color:#fff}
 .disclose{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:10px 14px;margin:0 0 24px}
 .btn+.btn{margin-left:8px}
 .mast.slim .nav{padding-block:14px}
+.shop{margin-top:32px;padding:16px 18px;border:1px solid var(--line);background:var(--card);display:grid;gap:10px}
+.shop p{margin:0}
+.shop .btn{margin:4px 8px 4px 0}
+.shop-note{font-size:13px;color:var(--muted)}
+.inline-note{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-left:10px;vertical-align:middle}

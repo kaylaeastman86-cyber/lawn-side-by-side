@@ -38,7 +38,7 @@ function parse(file) {
 // --- small markdown converter: headings, paragraphs, lists, tables, quotes, bold, italics, links, amazon shortcodes
 function inline(s) {
   let out = esc(s);
-  out = out.replace(/\{\{amazon:([^|}]+)(?:\|([^}]+))?\}\}/g, (_, t, l) => amazonLink(t, l));
+  out = out.replace(/\{\{amazon:([^|}]+)(?:\|([^}]+))?\}\}/g, (_, t, l) => amazonLink(t, l) + '<span class="inline-note">Affiliate link</span>');
   out = out.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/(^|\W)\*(.+?)\*(?=\W|$)/g, "$1<em>$2</em>");
   out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]*)\)/g, (_, t, u) => {
     const ext = /^https?:/.test(u);
@@ -172,7 +172,7 @@ for (const a of articles) {
 <h1>${vsTitle(a)}</h1><p class="lede">${esc(a.summary)}</p>
 <p class="disclose">This page has Amazon affiliate links. If you buy through them, ${esc(cfg.siteName)} earns a small commission at no extra cost to you.</p>
 ${markdown(a.body)}
-<p style="margin-top:32px">${a.amazonA ? amazonLink(a.amazonA, a.productA + " on Amazon") : ""} ${a.amazonB ? amazonLink(a.amazonB, a.productB + " on Amazon") : ""}</p>
+<div class="shop"><p class="shop-note">Affiliate links: we earn a small commission if you buy through these, at no extra cost to you.</p><p>${a.amazonA ? amazonLink(a.amazonA, a.productA + " on Amazon") : ""} ${a.amazonB ? amazonLink(a.amazonB, a.productB + " on Amazon") : ""}</p></div>
 </main>`,
   });
   fs.mkdirSync(path.join(OUT, "compare", a.slug), { recursive: true });

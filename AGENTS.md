@@ -24,6 +24,11 @@ This is a static Amazon affiliate comparison site. Every push to `main` rebuilds
   `{{amazon:B0ABCD1234|Check price on Amazon}}` or `{{amazon:cordless leaf blower|See options}}`
 - The Amazon tag lives only in `site.config.json` (`amazonTag`). Change it there once and every link updates.
 
+## Product links
+
+- Prefer a specific product's ASIN over search words once you have picked and checked the exact product. Find the ASIN on the Amazon product page under "Product information".
+- Focus new articles on the core categories first: cordless blowers, string trimmers, batteries and mowers.
+
 ## Rules
 
 - Only state specs (weight, voltage, CFM, price) you verified on the product page. If unsure, describe it qualitatively.
