@@ -17,6 +17,7 @@
   --ink:#e6ede6; --muted:#9aaa9e; --line:#2a372e; --card:#17211b;
   --signal:#f08a45; --signal-ink:#1a0f06; --chip:#22302a; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none !important}
 body{background:var(--paper);color:var(--ink);font:16px/1.6 var(--body)}
 .wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 a{color:inherit}

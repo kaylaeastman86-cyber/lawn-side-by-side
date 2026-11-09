@@ -6,8 +6,6 @@ audience: pro
 season: Summer
 summary: Cut quality, bagging performance and how often you'll be swapping blades on a full route.
 date: 2026-11-05
-amazonA: hi lift mower blades commercial
-amazonB: mulching mower blades commercial
 ---
 
 ## The short answer
@@ -39,5 +37,3 @@ Run hi-lift blades when you bag or need strong discharge in tall, thick grass. R
 ## From the field
 
 > Keep a sharpened backup set on the trailer. Swapping a dull set takes minutes and keeps cut quality up for the rest of the day.
-
-{{amazon:commercial mower blades|See commercial mower blades on Amazon}}

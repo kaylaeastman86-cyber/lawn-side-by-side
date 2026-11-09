@@ -6,8 +6,6 @@ audience: diy
 season: Spring
 summary: Yard size and slopes decide whether the extra cost of self-propelled is worth it.
 date: 2026-11-06
-amazonA: push lawn mower
-amazonB: self propelled lawn mower
 ---
 
 ## The short answer
@@ -39,5 +37,3 @@ For a small, flat yard, a push mower does the job and costs less. If your yard h
 ## From the field
 
 > Whatever you buy, keep the blade sharp. A dull blade tears grass and leaves brown tips, and no mower upgrade fixes that.
-
-{{amazon:lawn mower|See lawn mowers on Amazon}}

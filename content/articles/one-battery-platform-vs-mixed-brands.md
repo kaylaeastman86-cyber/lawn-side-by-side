@@ -6,8 +6,6 @@ audience: pro
 season: Spring
 summary: Should a crew standardize on one brand's batteries, or buy the best tool for each job?
 date: 2026-11-06
-amazonA: commercial battery leaf blower
-amazonB: commercial battery string trimmer
 ---
 
 ## The short answer
@@ -39,5 +37,3 @@ Most crews moving to battery equipment do better standardizing on one platform. 
 ## From the field
 
 > Plan your battery count around your longest day, not your average day. Running out mid-route costs more than the extra battery.
-
-{{amazon:commercial battery lawn equipment|See commercial battery equipment on Amazon}}

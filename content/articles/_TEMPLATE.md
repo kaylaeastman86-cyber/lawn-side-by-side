@@ -6,8 +6,8 @@ audience: diy
 season: Fall
 summary: One sentence that says who this comparison is for and what it decides.
 date: 2026-11-05
-amazonA: cordless leaf blower
-amazonB: gas leaf blower
+amazonA:
+amazonB:
 draft: true
 ---
 
@@ -36,6 +36,6 @@ Two or three sentences. Say which one most readers should pick and why.
 
 ## From the field
 
-> A real tip from lawn care experience. This is what makes the page worth reading.
+> A practical tip a reader can use. Do not invent a hands-on test, a star rating, or a spec you have not checked.
 
-{{amazon:cordless leaf blower|See cordless blowers on Amazon}}
+Add a product button only after you have verified the exact Amazon product page. The shortcode shape is an ASIN, then a pipe, then the button label. If you cannot match a real product page, leave the link out.

@@ -6,8 +6,6 @@ audience: diy
 season: Fall
 summary: Which type actually clears wet leaves on a typical suburban lot, and when the gas engine is worth the noise.
 date: 2026-11-05
-amazonA: cordless leaf blower
-amazonB: gas leaf blower
 ---
 
 ## The short answer
@@ -39,5 +37,3 @@ For most homeowners with a quarter acre or less, a good cordless blower is the b
 ## From the field
 
 > Wet leaves are the real test. Clear them while they're dry if you can; even a strong blower struggles once leaves are soaked and stuck to the grass.
-
-{{amazon:cordless leaf blower|See cordless blowers on Amazon}}
