@@ -6,8 +6,6 @@ audience: diy
 season: Summer
 summary: For most home yards a battery trimmer is easier to live with. Here's when gas still makes sense.
 date: 2026-11-06
-amazonA: cordless string trimmer
-amazonB: gas string trimmer
 ---
 
 ## The short answer
@@ -39,5 +37,3 @@ If you trim one average yard, a battery trimmer is the easier choice. It starts 
 ## From the field
 
 > Line matters as much as the trimmer. A heavier, quality line lasts longer along concrete edges than the thin line that comes in the box.
-
-{{amazon:string trimmer|See string trimmers on Amazon}}

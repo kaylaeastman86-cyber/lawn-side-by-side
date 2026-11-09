@@ -13,16 +13,18 @@ This is a static Amazon affiliate comparison site. Every push to `main` rebuilds
    - `season` — exactly `Spring`, `Summer`, `Fall` or `Winter`
    - `summary` — one sentence, shown on the home page card and in Google results
    - `date` — YYYY-MM-DD
-   - `amazonA`, `amazonB` — an Amazon ASIN (10 characters, e.g. `B0ABCD1234`) or search words. These become the buttons at the bottom of the page.
+   - `amazonA`, `amazonB` — a real 10-character Amazon ASIN for the exact product page, or leave the field off. These become the buttons at the bottom of the page. Do not put search words here.
+   - `layout: guide` — optional. Use it for a roundup whose headline is the title. Leave it off for a two-product "vs" page.
    - `draft: true` hides the page; remove it or set `false` to publish.
 3. Write the body in Markdown using the template's sections. Keep the "From the field" tip; it is what makes the page worth reading.
 4. Commit and push to `main`.
 
 ## Affiliate links
 
-- Never paste a raw Amazon URL with a tag in it. Use the shortcode instead, and the site adds the tag:
-  `{{amazon:B0ABCD1234|Check price on Amazon}}` or `{{amazon:cordless leaf blower|See options}}`
-- The Amazon tag lives only in `site.config.json` (`amazonTag`). Change it there once and every link updates.
+- Never paste a raw Amazon URL. Use the shortcode instead, and the site adds the tag:
+  `{{amazon:B0ABCD1234|Check price on Amazon}}`
+- The shortcode accepts only a 10-character ASIN. The build rejects search phrases, placeholder tags, and raw `amazon.com` URLs. If you cannot verify the exact product page, leave the link out.
+- The Amazon tag lives only in `site.config.json` (`amazonTag`). It is `houseoflushel-20`. Change it there once and every link updates.
 
 ## Product links
 
